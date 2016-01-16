@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/Welcome"
+        android:textColor="#ffffff"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/welcome_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/welcome_full_name"
+        android:layout_below="@+id/welcome_full_name"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/Welcome_Age"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/welcome_patientAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/welcome_age"
+        android:layout_alignBottom="@+id/welcome_age"
+        android:layout_alignLeft="@+id/welcome_name"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    
+     <Button
+        android:id="@+id/start_tutorial_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/welcome"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="18dp"
+        android:text="@string/start_tutorial_btn"
+        android:background="@drawable/border"
+        android:textColor="#ffffff"
+        android:textSize="15sp" 
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:onClick="showTutorial1" />
+
+    <Button
+        android:id="@+id/skip_tutorial_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/start_tutorial_btn"
+        android:layout_alignLeft="@+id/welcome_age"
+        android:text="@string/skip_tutorial_btn"
+        android:background="@drawable/border"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:onClick="showQuestionnaire" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_tutorial_btn"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-condensed"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="@string/Welcome_Introduction"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/welcome_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/male_adult_avatar"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/name"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/male_adult_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/welcome_full_name"
+        android:layout_alignTop="@+id/welcome"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/doc_avatar2_100x100" />
+
+    <TextView
+        android:id="@+id/welcome_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/welcome_age"
+        android:layout_alignLeft="@+id/start_tutorial_btn"
+        android:layout_marginLeft="19dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Questionnaire App</string>
+    <string name="action_settings">Settings</string>
+    <string name="NewPatient">New Patient</string>
+    <string name="Admin">Admin</string>
+    <string name="adminEnter">Enter</string>
+    <string name="Questionnaires_list">Questionnaire</string>
+    <string name="patientsEnter">Enter Information</string>
+    <string name="patientsSection">This app is for medical usage only</string>
+    <string name="patientDetails">Please enter the patient details</string>
+    <string name="Home">Home</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Welcome_Age">Age:</string>
+    <string name="Welcome_Introduction">You are invited to fill in the questionnaire provided by the clinician. This app is for medical use only and your personal details will be secured and kept in privacy according to law.</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="app_title">Questionnaire App</string>
+    <string name="desc">Content here</string>
+    <string name="teamj">Powered by Team J</string>
+    <string name="name">Full Name</string>
+    <string name="surname">Surname</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="start_tutorial_btn">Start Tutorial</string>
+    <string name="skip_tutorial_btn">Skip Tutorial</string>
+    <string name="next_btn_tuto">Next</string>
+    <string name="prev_btn_tuto">Previous</string>
+    <string name="tutorial_p1_1">Here are some basic pointers on using touch screens. (Pg 1 of 4) </string>
+    <string name="tutorial_p2_1">Here are some basic pointers on using touch screens. (Pg 2 of 4) </string>
+    <string name="tutorial_p3_1">Here are some basic pointers on using touch screens. (Pg 3 of 4) </string>
+    <string name="tutorial_p4_1">Here are some basic pointers on using touch screens. (Pg 4 of 4) </string>
+    <string name="tutorial_p1_2">If you wish to select a button or a text box on the screen just tap it with your finger.</string>
+    <string name="tutorial_p2">If you tap on a text box, a keyboard will appear on your touchscreen. You can use this to type, just like a real keyboard on a computer.</string>
+    <string name="tutorial_p3">To zoom in, place two fingers together on the screen (most people use their first finger and thumb) and pull them away from each other.	</string>
+    <string name="tutorial_p4">To zoom out, place two fingers apart on the screen (most people use their first finger and thumb) and bring them closer to each other.	</string>
+    <string name="tutorial_p5">Here are some of the input types used in this questionnaire. (Pg 1 of 2) </string>
+    <string name="tutorial_p6">Here are some of the input types used in this questionnaire. (Pg 2 of 2) </string>
+    <string name="title_activity_tutorial_p2">New activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="begin_q">Begin Questionnaire</string>
+    <string name="title_activity_tutorial_p3">Tutorial_p3</string>
+    <string name="title_activity_tutorial_p4">Tutorial_p4</string>
+    <string name="title_activity_tutorial_p5">Tutorial_p5</string>
+    <string name="title_activity_tutorial_p6">Tutorial_p6</string>
+    <string name="title_activity_questionnaire">Questionnaire</string>
+    <string name="text_box">Text Box: Allows a user to enter in text using the on-screen keyboard.</string>
+    <string name="radio_button">Radio Button: Allows a user to choose only one of a pre-defined set of options.</string>
+    <string name="checkbox">Checkbox: Allows the user to either choose a yes (checked) or no (blank) response to a given statement. </string>
+    <string name="choose_from_list">Choose from List: A menu of options that appears below the item when the computer user clicks on it. An option from the list may be selected. </string>
+    <string name="slider">Slider: Allows a user to set a value by moving the indicator in the horizontal or vertical direction. </string>
+    <string name="questionnaire_heading">Questionnaire for patient</string>
+    <string-array name="Spinner_Questionnaires">
+        <item >Questionnaire 1</item>
+        <item >Questionnaire 2</item>
+        <item >Questionnaire 3</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/next_btn_tuto5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/next_btn_tuto"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:onClick="showTutorial6" />
+
+    <Button
+        android:id="@+id/skip_tutorial_btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/next_btn_tuto5"
+        android:layout_alignBottom="@+id/next_btn_tuto5"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/next_btn_tuto5"
+        android:background="@drawable/border"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/skip_tutorial_btn"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:onClick="showQuestionnaire" />
+
+    <TextView
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_box"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="10dp"
+        android:text="@string/checkbox"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tutorialp5_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical|center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="@string/tutorial_p5"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkbox"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="10dp"
+        android:text="@string/text_box"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/tutorial_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorialp5_text_1"
+        android:layout_alignTop="@+id/checkbox"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/check_box_t5" />
+
+    <Button
+        android:id="@+id/prev_btn_tuto5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/skip_tutorial_btn5"
+        android:layout_alignBottom="@+id/skip_tutorial_btn5"
+        android:layout_marginRight="40dp"
+        android:layout_toLeftOf="@+id/skip_tutorial_btn5"
+        android:background="@drawable/border"
+        android:onClick="showTutorial4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/prev_btn_tuto"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/tutorial_textbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorial_checkbox"
+        android:layout_alignTop="@+id/text_box"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/textbox_t5" />
+
+    <TextView
+        android:id="@+id/radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkbox"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tutorial_checkbox"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="10dp"
+        android:text="@string/radio_button"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/tutorial_radiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorial_checkbox"
+        android:layout_alignTop="@+id/radio_button"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/radio_buttons_t5" />
+    
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2" >
+
+    <Button
+        android:id="@+id/next_btn_tuto4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/next_btn_tuto"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:onClick="showTutorial5" />
+
+    <Button
+        android:id="@+id/skip_tutorial_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/next_btn_tuto4"
+        android:layout_alignBottom="@+id/next_btn_tuto4"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/next_btn_tuto4"
+        android:background="@drawable/border"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/skip_tutorial_btn"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:onClick="showQuestionnaire" />
+
+    <TextView
+        android:id="@+id/tutorialp4_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical|center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="@string/tutorial_p4_1"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/spinner_textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tutorialp4_text_1"
+        android:layout_marginTop="23dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/tutorial_p4"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/prev_btn_tuto4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/skip_tutorial_btn4"
+        android:layout_alignBottom="@+id/skip_tutorial_btn4"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border"
+        android:onClick="showTutorial3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/prev_btn_tuto"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinner_textView"
+        android:layout_toLeftOf="@+id/prev_btn_tuto4"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/zoom_in_t3" />
+    
+</RelativeLayout>
